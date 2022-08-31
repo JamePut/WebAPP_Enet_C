@@ -18,7 +18,7 @@
         ต้องการดูกระทู้หมายเลข <?php echo $_GET["id"]; ?>
         <table style="border: 2px solid black; width: 40%;" align="center">
             <tr><td style="background-color: #6cd2fe;" colspan="2">แสดงความคิดเห็น</td></tr>
-            <tr><td><input type="text" name="message" size="102"></td></tr>
+            <tr><td><textarea name="message" cols="100" rows="5"></textarea></td></tr>
             <tr><td colspan="2" align="center"><input type="submit" value="ส่งข้อความ"></td></tr>
         </table><br>
         <a href="index.html" target="_blank"> กลับไปหน้าหลัก </a></center><br>
