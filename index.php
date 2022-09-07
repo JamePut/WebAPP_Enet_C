@@ -15,11 +15,11 @@
                             <option value="study">เรื่องเรียน</option></select>
     <a href="login.html" target="_blank" style="float:right"> เข้าสู่ระบบ </a> <br>
     <ul><form action="post.php" method="get">
-        <li><a href="post.php?id=1" target="_blank"> กระทู้ที่ 1 </a> </li>
-        <li><a href="post.php?id=2" target="_blank"> กระทู้ที่ 2 </a> </li>
-        <li><a href="post.php?id=3" target="_blank"> กระทู้ที่ 3 </a> </li>
-        <li><a href="post.php?id=4" target="_blank"> กระทู้ที่ 4 </a> </li>
-        <li><a href="post.php?id=5" target="_blank"> กระทู้ที่ 5 </a> </li>
+    <?php
+        for($i=1; $i<=10; $i++){
+            echo "<li><a href=post.php?id="."$i"."> กระทู้ที่ ".$i." </a></li>";
+        }
+    ?>
     </form></ul>
 </body>
 </html>
