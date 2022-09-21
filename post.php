@@ -27,7 +27,7 @@
             <tr><td><textarea name="message" cols="100" rows="5"></textarea></td></tr>
             <tr><td colspan="2" align="center"><input type="submit" value="ส่งข้อความ"></td></tr>
         </table><br>
-        <a href="index.php" target="_blank"> กลับไปหน้าหลัก </a></center><br>
+        <a href="index.php" target=""> กลับไปหน้าหลัก </a></center><br>
     </center>
 </body>
 </html>
