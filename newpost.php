@@ -28,7 +28,7 @@
                                     <option value="study">เรื่องเรียน</option>
             </select></td></tr>
             <tr><td>หัวข้อ :</td><td><input type="text" name="topic"></td></tr>
-            <tr><td>เนื้อหา :</td><td><textarea name="message" cols="100" rows="2"></textarea></td></tr>
+            <tr><td>เนื้อหา :</td><td><textarea name="message" cols="21" rows="2"></textarea></td></tr>
             <tr><td></td><td><input type="submit" value="บึนทึกข้อความ"></td></tr>
     </table>
     </body>
